@@ -659,7 +659,7 @@ export default function WeddingInvitations() {
           <div className="wi-footer-line" />
           <p className="wi-footer-blessings">
             With blessings of Kunjaami · Safiya · Shihab · Shuhaib<br />
-            Kaithakal Family &amp; Naduththeruratthy Family
+            Kaithakal Family &amp; Naduthuruthy Family
           </p>
           <div className="wi-footer-phones">
             <a href="tel:9846729249">📞 9846729249</a>
