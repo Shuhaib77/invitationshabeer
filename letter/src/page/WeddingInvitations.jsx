@@ -658,7 +658,7 @@ export default function WeddingInvitations() {
           <p className="wi-footer-names">Basheer Kaithakal &amp; Shameena Basheer Kaithakal</p>
           <div className="wi-footer-line" />
           <p className="wi-footer-blessings">
-            With blessings of Kunjamma · Safiya · Shihab · Shuhaib<br />
+            With blessings of Kunjaami · Safiya · Shihab · Shuhaib<br />
             Kaithakal Family &amp; Naduththeruratthy Family
           </p>
           <div className="wi-footer-phones">
