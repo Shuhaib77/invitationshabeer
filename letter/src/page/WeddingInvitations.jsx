@@ -452,7 +452,7 @@ function RSVPModal({ open, isYes, name, guests, onClose }) {
 }
 
 // ── Main Component ──
-export default function WeddingInvitation() {
+export default function WeddingInvitations() {
   const heroRef = useRef(null);
   const particlesRef = useRef(null);
   useHeroParticles(particlesRef, heroRef);
