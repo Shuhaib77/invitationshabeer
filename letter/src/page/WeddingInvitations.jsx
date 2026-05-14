@@ -595,12 +595,12 @@ export default function WeddingInvitations() {
             {[
               {cls:'wi-d-green',icon:'📅',h:'Sunday, July 26, 2026',p:'1447 Safar 11 · Njayarazhcha'},
               {cls:'wi-d-rose', icon:'🕒',h:'3:00 PM — 9:00 PM',p:'Evening celebration & dinner'},
-              {cls:'wi-d-teal', icon:'📍',h:'V.V. Dakshinamurthy Hall',p:'Perambra, Kozhikode, Kerala'},
+              {cls:'wi-d-teal', icon:'📍',h:'V.V. Dakshinamurthy Hall',p:'Perambra, Kozhikode, Kerala',l:'https://maps.app.goo.gl/hNpb6QEWMManCrKCA'},
               {cls:'wi-d-warm', icon:'🕌',h:'Nikah Ceremony',p:'Followed by walima & reception'},
             ].map((item,i) => (
               <div className="wi-detail-item" key={i}>
                 <div className={`wi-d-icon ${item.cls}`}>{item.icon}</div>
-                <div className="wi-detail-text">
+                <div className="wi-detail-text" onClick={() => { if (item.l) window.open(item.l, '_blank'); }} style={{cursor: item.l ? 'pointer' : 'default'}}>
                   <h4>{item.h}</h4>
                   <p>{item.p}</p>
                 </div>
