@@ -548,7 +548,7 @@ export default function WeddingInvitations() {
                 <p>Daughter of<br /><strong>Muhammed E.P.</strong>&amp; Jameela</p>
               </div>
             </div>
-            <p className="wi-family-foot">Illath Pidiyakil, Arakkur, Kakkattil</p>
+            <p className="wi-family-foot">Illath Pidikayil, Aroor, Kakkattil</p>
           </div>
         </section>
 
